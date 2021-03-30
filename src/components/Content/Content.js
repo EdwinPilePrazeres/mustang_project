@@ -8,24 +8,31 @@ import thumb2 from "../../images/thumb2.png";
 import thumb3 from "../../images/thumb3.png";
 import "./Content.css";
 
+const quotes = [
+  {
+    id: '1',
+    Img: img1,
+    thumb: [thumb1, thumb2],
+  },
+  {
+    id: '2',
+    Img: img2,
+    thumb: thumb2,
+  },
+  {
+    id: '3',
+    Img: img3,
+  },
+];
+function Content({list, onhandleGetId}) {
 
-const Content = () => {
-    const quotes = {
-        0: {
-            Img: img1
-        },
-        1: {
-            Img: img2,
-        },
-        2: {
-            Img: img3
-        }
+    const [decade, setDecade] = useState(quotes);
+
+    function handleChangeDecade(id) {
+        //change decade button
+        console.log(id);
     }
-    const [current, setCurrent] = useState(quotes[1]);
-    const [active, setActive] = useState(0);
-    const handleSetClick = () => {
-        console.log("hello");
-    }
+
   return (
     <div className="content">
       <div className="textBox">
@@ -36,24 +43,25 @@ const Content = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
           impedit nihil praesentium id, itaque quas! Accusantium, excepturi
           soluta? Tenetur ducimus neque repudiandae blanditiis, sit culpa!
-          {Object.keys(quotes).map(index => (
-              <ul className='thumb' onClick={event => handleSetClick(event)} data-quote={index} key={index}>
-                  
-              </ul>
-          ))}
         </p>
-        <Link >Learn More</Link>
+        <Link onClick={() => handleChangeDecade(quotes.id)}>Learn More</Link>
       </div>
       <div className="imgBox">
-        <img src={current.Img} alt="" className="starbucks" />
+        <img src={quotes.Img} alt="" className="starbucks" />
       </div>
-      <ul className='thumb'>
-          <li><img src={thumb1} alt=''  /></li>
+      <ul className="thumb">
+        {list.map((item) => (
+          <li key={item.id}>
+            <img src={item.thumb} alt="" />
+            <button type='button'>aaaa</button>
+          </li>
+        ))}
+        {/* <li><img src={thumb1} alt=''  /></li>
           <li><img src={thumb2} alt='' /></li>
-          <li><img src={thumb3} alt='' /></li>
+          <li><img src={thumb3} alt='' /></li> */}
       </ul>
     </div>
   );
-};
+}
 
 export default Content;
