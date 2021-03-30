@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mustang_project/static/css/main.9951055e.chunk.css",
+    "main.js": "/mustang_project/static/js/main.ad124ab8.chunk.js",
+    "main.js.map": "/mustang_project/static/js/main.ad124ab8.chunk.js.map",
+    "runtime-main.js": "/mustang_project/static/js/runtime-main.86c92423.js",
+    "runtime-main.js.map": "/mustang_project/static/js/runtime-main.86c92423.js.map",
+    "static/js/2.32dccd64.chunk.js": "/mustang_project/static/js/2.32dccd64.chunk.js",
+    "static/js/2.32dccd64.chunk.js.map": "/mustang_project/static/js/2.32dccd64.chunk.js.map",
+    "index.html": "/mustang_project/index.html",
+    "static/css/main.9951055e.chunk.css.map": "/mustang_project/static/css/main.9951055e.chunk.css.map",
+    "static/js/2.32dccd64.chunk.js.LICENSE.txt": "/mustang_project/static/js/2.32dccd64.chunk.js.LICENSE.txt",
+    "static/media/img1.8fc07f15.png": "/mustang_project/static/media/img1.8fc07f15.png",
+    "static/media/img2.a33944e3.png": "/mustang_project/static/media/img2.a33944e3.png",
+    "static/media/img3.61b22f49.png": "/mustang_project/static/media/img3.61b22f49.png",
+    "static/media/logo.766153cb.png": "/mustang_project/static/media/logo.766153cb.png",
+    "static/media/thumb1.1e6ce44a.png": "/mustang_project/static/media/thumb1.1e6ce44a.png",
+    "static/media/thumb2.4436a39b.png": "/mustang_project/static/media/thumb2.4436a39b.png",
+    "static/media/thumb3.00b72d1c.png": "/mustang_project/static/media/thumb3.00b72d1c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86c92423.js",
+    "static/js/2.32dccd64.chunk.js",
+    "static/css/main.9951055e.chunk.css",
+    "static/js/main.ad124ab8.chunk.js"
+  ]
+}
