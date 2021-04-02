@@ -1,20 +1,26 @@
-import React from 'react'
-import '../App.css';
-import Circle from '../components/Circle/Circle';
-import Ccc from '../components/Content/ccc';
-import Content from '../components/Content/Content';
-import Navbar from '../components/Navbar/Navbar';
+import React from "react";
+import "../App.css";
+import Circle from "../components/Circle/Circle";
+import Content from "../components/Content";
+import MenuBottom from "../components/MenuBottom";
+import MenuTop from "../components/MenuTop";
+import Test from "../components/Test";
 
 const Home = () => {
-    return (
-        <div className="container">
-            {/* <Ccc /> */}
-            <Circle />
+  return (
+    <div className="container">
+      {/* <Ccc /> */}
+      {/* <Circle />
             <Navbar />
-            <Content />
-        </div>
+            <Content /> */}
+      {/* <Circle /> */}
+      {/* <Test /> */}
+      <MenuTop />
 
-    )
-}
+      {/* <Content /> */}
+      {/* <MenuBottom /> */}
+    </div>
+  );
+};
 
-export default Home
+export default Home;

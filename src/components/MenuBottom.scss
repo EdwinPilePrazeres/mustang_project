@@ -1,0 +1,32 @@
+.cars_thumbnail {
+    position: absolute;
+    // left: 9999%;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    display: flex;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.5s;
+        border: 2px solid orange;
+
+        &:hover {
+            transform: translateY(-15px);
+        }
+
+        img {
+            max-width: 60px;
+        }
+
+        &.active {
+            border: 2px solid red;
+            background-color: greenyellow;
+            color: black;
+            left: 50%;
+        }
+    }
+}
