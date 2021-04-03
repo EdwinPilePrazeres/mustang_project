@@ -1,3 +1,3 @@
 To access the page, click here:
 
-    http://EdwinPilePrazeres.github.io/up_project/ 
+    http://EdwinPilePrazeres.github.io/mustang_project/ 
