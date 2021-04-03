@@ -37,7 +37,7 @@ const Content20 = () => {
             >
               <div className="content">
                 <div className="textBox">
-                  <h2>{item.name}</h2>
+                  <h2>{item.modelo}</h2>
                   <p>{item.description}</p>
                   <Link to="/mustang_project">Learn More</Link>
                 </div>
