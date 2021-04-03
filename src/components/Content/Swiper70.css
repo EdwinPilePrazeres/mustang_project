@@ -1,0 +1,30 @@
+
+  .Page70 .swiper-pagination-bullet:nth-child(1) {
+    background: url('../../images/cars_img/1970.png') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page70 .swiper-pagination-bullet:nth-child(2) {
+    background: url('../../images/cars_img/1971.png') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page70 .swiper-pagination-bullet:nth-child(3) {
+    background: url('../../images/cars_img/1973.png') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page70 .swiper-pagination-bullet:nth-child(4) {
+    background: url('../../images/cars_img/1978.png') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page70 .swiper-pagination-bullet:nth-child(5) {
+    background: url('../../images/img/1969.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }

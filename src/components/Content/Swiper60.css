@@ -1,0 +1,51 @@
+.swiper-pagination-bullet {
+    transition: 0.5s;
+    width: 100px !important;
+    height: 100px !important;
+    text-align: center !important;
+    line-height: 20px !important;
+    font-size: 12px !important;
+    color: #000 !important;
+    opacity: 1 !important;
+    border-radius: 0 !important;
+    /* // background: rgba(0, 0, 0, 0.2) !important; */
+    
+  }
+  .Home .swiper-pagination-bullet:nth-child(1) {
+    background: url('../../images/img/1965_test.png') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Home .swiper-pagination-bullet:nth-child(2) {
+    background: url('../../images/img/1966.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Home .swiper-pagination-bullet:nth-child(3) {
+    background: url('../../images/img/1967.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Home .swiper-pagination-bullet:nth-child(4) {
+    background: url('../../images/img/1968.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Home .swiper-pagination-bullet:nth-child(5) {
+    background: url('../../images/img/1969.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+ 
+
+  .swiper-pagination-bullet-active {
+    /* color: #fff !important; */
+    /* background: #007aff !important; */
+    border-bottom: 3px solid #880000;
+    margin-bottom: -3px;
+  }

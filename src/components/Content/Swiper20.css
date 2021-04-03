@@ -1,0 +1,5 @@
+  .Page20 .swiper-pagination-bullet:nth-child(1) {
+    background: url('../../images/img/2020.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }

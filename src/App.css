@@ -1,17 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
+
+.Home, .Page70, .Page80, .Page90, .Page00, .Page10, .Page20{
+    min-height: 100vh;
+    position: relative;
+
 }
+
+.Home::before, .Page00::before, .Page10::before, .Page20::before, .Page90::before, .Page70::before, .Page80::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Home::before, .Page80::before, .Page00::before, .Page20::before   {
+    background: url('./images/wallpaper.jpg') no-repeat;
+    background-size: cover;
+}
+.Page70::before,.Page90::before, .Page10::before {
+    background: url('./images/wallpaper70.jpg') no-repeat;
+    background-size: cover;
+}
+

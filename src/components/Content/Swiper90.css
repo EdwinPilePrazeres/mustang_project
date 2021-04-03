@@ -1,0 +1,31 @@
+
+  .Page90 .swiper-pagination-bullet:nth-child(1) {
+    background: url('../../images/img/1990.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page90 .swiper-pagination-bullet:nth-child(2) {
+    background: url('../../images/img/1991.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page90 .swiper-pagination-bullet:nth-child(3) {
+    background: url('../../images/img/1992.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page90 .swiper-pagination-bullet:nth-child(4) {
+    background: url('../../images/img/1993.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .swiper-pagination-bullet:nth-child(5) {
+    background: url('../../images/img/1994.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+

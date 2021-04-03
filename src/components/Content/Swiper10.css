@@ -1,0 +1,30 @@
+
+  .Page10 .swiper-pagination-bullet:nth-child(1) {
+    background: url('../../images/img/2010.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page10 .swiper-pagination-bullet:nth-child(2) {
+    background: url('../../images/img/2011.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page10 .swiper-pagination-bullet:nth-child(3) {
+    background: url('../../images/img/2012.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page10 .swiper-pagination-bullet:nth-child(4) {
+    background: url('../../images/img/2013.webp') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
+
+  .Page10 .swiper-pagination-bullet:nth-child(5) {
+    background: url('../../images/img/2014.jpg') no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+  }
